@@ -1,0 +1,25 @@
+label {
+   margin: 5px !important;
+}
+
+#drop_file_zone {
+   background-color: #EEE;
+   border: #999 4px dashed;
+   width: 360px;
+   height: 140px;
+   padding: 8px;
+   font-size: 14px;
+}
+
+#drag_upload_file {
+   width: 50%;
+   margin: 0 auto;
+}
+
+#drag_upload_file p {
+   text-align: center;
+}
+
+#drag_upload_file #docPDF {
+   display: none;
+}

@@ -1,0 +1,30 @@
+{
+   "0":{
+      "id":"RES_PAPER",
+      "name":"Research Paper"
+   },
+   "1":{
+      "id":"REPORT",
+      "name":"Project Report"
+   },
+   "2":{
+      "id":"THESIS",
+      "name":"Thesis"
+   },
+   "3":{
+      "id":"ARTICLE",
+      "name":"Article"
+   },
+   "4":{
+      "id":"VIDEO",
+      "name":"Video"
+   },
+   "5":{
+      "id":"POST",
+      "name":"Post"
+   },
+   "6":{
+      "id":"OTHER",
+      "name":"Other"
+   }
+}

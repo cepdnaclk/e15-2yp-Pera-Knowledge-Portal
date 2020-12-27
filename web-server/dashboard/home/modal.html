@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Pera Knowledge Hub</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" href="../css/w3.css">
+   <link rel="stylesheet" href="../css/w3-theme.css">
+   <link rel="stylesheet" href="../css/font-awesome.min.css">
+   <link rel="stylesheet" href="../css/index.css">
+   <link rel="shortcut icon" href="./../img/fav.ico">
+
+   <script type="application/javascript" src="../js/jquery.min.js"></script>
+   <script type="application/javascript" src="../js/index.js"></script>
+
+
+   <style>
+   span {
+      border: 1px solid black;
+      border-radius: 10px;
+      margin:2px;
+   }
+
+   a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+   }
+
+   a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+   }
+
+   a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+   }
+
+   a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+   }
+
+   </style>
+
+</head>
+
+<body>
+
+
+   <div id='modalError' class='w3-modal'>
+      <div class='w3-modal-content w3-card-4'>
+         <header class='w3-container w3-theme'><h3>Error</h3></header>
+         <div class='w3-container'>
+            <p id='modelErrorMsg'></p>
+            <button onclick='errorHide()' type='button' class='w3-button w3-theme-button w3-right'>OK</button>
+         </div>
+      </div>
+   </div>
+
+
+   <script>
+   $(document).ready()
+   {
+      errorShow("This is a sample error", 2500);
+   }
+
+   function errorShow(errMsg, timeout){
+      $("#modelErrorMsg").html(errMsg);
+      $("#modalError").css("display", "block"); // .animate({opacity: '1'})
+      setTimeout( function(){errorHide()}, timeout);
+   }
+   function errorHide(){
+      $("#modalError").animate({opacity: '0'})  //.css("display", "none");
+   }
+   </script>
+
+</body>
+</html>

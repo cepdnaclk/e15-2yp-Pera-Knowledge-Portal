@@ -1,0 +1,30 @@
+body {
+    background-color: #fdfdfd;
+}
+
+.searchBox input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #9d170e;
+    float: left;
+    width: 85%;
+    background: #f1f1f1;
+}
+
+.searchBox button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #9d170e;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #9d170e;
+    border-left: none;
+    cursor: pointer;
+    min-width: 48px !important;
+}
+
+.searchBox button:hover {
+    color: #ffd432 !important;
+    background-color: #ba190e !important
+}
