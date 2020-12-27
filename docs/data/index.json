@@ -1,34 +1,26 @@
 {
-   "title":"This is the title of the project",
+   "title":"Pera Knowledge Portal",
    "team":[
-      {
-         "name":"Team Member Name 1",
-         "email":"email@eng.pdn.ac.lk",
-         "eNumber":"E/yy/xxx"
-      },
-      {
-         "name":"Team Member Name 2",
-         "email":"email@eng.pdn.ac.lk",
-         "eNumber":"E/yy/xxx"
-      },
-      {
-         "name":"Team Member Name 3",
-         "email":"email@eng.pdn.ac.lk",
-         "eNumber":"E/yy/xxx"
-      }
+       {
+          "name":"Nuwan Jaliyagoda",
+          "email":"nuwanjaliyagoda@eng.pdn.ac.lk",
+          "eNumber":"E/15/140"
+       },
+       {
+          "name":"Dilshani Karunarathne",
+          "email":"dinelkadilshani95@gmail.com",
+          "eNumber":"E/15/173"
+       },
+       {
+          "name":"Pasan Tennakoon",
+          "email":"pasan96tennakoon@gmail.com",
+          "eNumber":"E/15/350"
+       }
    ],
    "supervisors":[
-      {
-         "name":"Dr. Supervisor 1",
-         "email":"email@eng.pdn.ac.lk"
-      },
-      {
-         "name":"Supervisor 2",
-         "email":"email@eng.pdn.ac.lk"
-      }
    ],
-   "description":"This is a breif intruduction of the project. You need to use plain text without any specific characters here",
-   "tags":["Web","Embedded Systems"],
+   "description":"Our project aims to create a database of Research papers, Project Reports, Thesis’ done in University of Peradeniya. Since there is no current database where we keep the project reports other than the hard copies themselves, it is not possible for a person outside the university to access these reports. We created a platform where anyone in the university can upload their respective reports into a database which can be used by anyone; inside or outside the university, to access and read through",
+   "tags":["Web"],
    "image":"img_cover.jpg",
    "thumbnail":"img_thumbnail.jpg"
 }
