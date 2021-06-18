@@ -1,26 +1,33 @@
 {
-   "title":"Pera Knowledge Portal",
-   "team":[
-       {
-          "name":"Nuwan Jaliyagoda",
-          "email":"nuwanjaliyagoda@eng.pdn.ac.lk",
-          "eNumber":"E/15/140"
-       },
-       {
-          "name":"Dilshani Karunarathne",
-          "email":"dinelkadilshani95@gmail.com",
-          "eNumber":"E/15/173"
-       },
-       {
-          "name":"Pasan Tennakoon",
-          "email":"pasan96tennakoon@gmail.com",
-          "eNumber":"E/15/350"
-       }
-   ],
-   "supervisors":[
-   ],
-   "description":"Our project aims to create a database of Research papers, Project Reports, Thesis’ done in University of Peradeniya. Since there is no current database where we keep the project reports other than the hard copies themselves, it is not possible for a person outside the university to access these reports. We created a platform where anyone in the university can upload their respective reports into a database which can be used by anyone; inside or outside the university, to access and read through",
-   "tags":["Web"],
-   "image":"img_cover.jpg",
-   "thumbnail":"img_thumbnail.jpg"
+    "title":"Pera Knowledge Portal",
+    "team":[
+        {
+            "name": "Jaliyagoda A.J.N.M.",
+            "email": "nuwanjaliyagoda@eng.pdn.ac.lk",
+            "eNumber": "E/15/140",
+            "github_profile": "https://github.com/NuwanJ",
+            "linkedin_profile": "https://www.linkedin.com/in/nuwan-jaliyagoda/",
+            "website":"https://nuwanjaliyagoda.com/"
+        },
+        {
+            "name": "Karunarathna S.D.D.D.",
+            "email": "dinelkadilshani95@gmail.com",
+            "eNumber": "E/15/173",
+            "github_profile": "https://github.com/DDilshani",
+            "linkedin_profile": "https://lk.linkedin.com/in/dilshanikarunarathna",
+            "website":"#"
+        },
+        {
+            "name":"Pasan Tennakoon",
+            "email":"pasan96tennakoon@gmail.com",
+            "eNumber":"E/15/350",
+            "github_profile": "https://github.com/PasanT9",
+            "linkedin_profile": "#",
+            "website": "#"
+        }
+    ],
+    "supervisors":[
+    ],
+    "description":"Our project aims to create a database of Research papers, Project Reports, Thesis’ done in University of Peradeniya. Since there is no current database where we keep the project reports other than the hard copies themselves, it is not possible for a person outside the university to access these reports. We created a platform where anyone in the university can upload their respective reports into a database which can be used by anyone; inside or outside the university, to access and read through",
+    "tags":["Web"]
 }
