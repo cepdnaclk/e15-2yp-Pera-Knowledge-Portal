@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "title":"Pera Knowledge Portal",
     "team":[
         {
@@ -30,4 +31,29 @@
     ],
     "description":"Our project aims to create a database of Research papers, Project Reports, Thesis’ done in University of Peradeniya. Since there is no current database where we keep the project reports other than the hard copies themselves, it is not possible for a person outside the university to access these reports. We created a platform where anyone in the university can upload their respective reports into a database which can be used by anyone; inside or outside the university, to access and read through",
     "tags":["Web"]
+=======
+   "visibility":true,
+   "title":"Pera Knowledge Portal",
+   "team":[
+       {
+          "name":"Nuwan Jaliyagoda",
+          "email":"nuwanjaliyagoda@eng.pdn.ac.lk",
+          "eNumber":"E/15/140"
+       },
+       {
+          "name":"Dilshani Karunarathne",
+          "email":"dinelkadilshani95@gmail.com",
+          "eNumber":"E/15/173"
+       },
+       {
+          "name":"Pasan Tennakoon",
+          "email":"pasan96tennakoon@gmail.com",
+          "eNumber":"E/15/350"
+       }
+   ],
+   "supervisors":[
+   ],
+   "description":"Our project aims to create a database of Research papers, Project Reports, Thesis’ done in University of Peradeniya. Since there is no current database where we keep the project reports other than the hard copies themselves, it is not possible for a person outside the university to access these reports. We created a platform where anyone in the university can upload their respective reports into a database which can be used by anyone; inside or outside the university, to access and read through",
+   "tags":["Web"]
+>>>>>>> 15b4ca5d51c294ee8b21d406504fa33b6215e31f
 }
